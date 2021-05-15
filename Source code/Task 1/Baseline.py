@@ -126,10 +126,6 @@ class DQN():
 
         print('Did not solve after {} episodes 😞'.format(e))
 
-        """
-        학습한 모델을 저장하는 함수 호출 필요
-        ex)self.save_model(....)
-        """
         self.save_model()
 
         return avg_scores
